@@ -33,9 +33,9 @@
     <%= value %>
 <% end -%><% end -%>
 
-<% @location_conditions.each do |condition| -%>
+<% if @location_conditions -%><% @location_conditions.each do |condition| -%>
     <%= condition %>
-<% end -%>
+<% end -%><% end -%>
 
   }
 
